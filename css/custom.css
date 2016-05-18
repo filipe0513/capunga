@@ -30,7 +30,7 @@ p {
 }
 
 .jumbotron {
-	background-image: url("../img/hero.jpg");
+	background-image: url("../img/hero2-dark.jpg");
 	background-position: center center;
 	background-size: cover;
 
@@ -44,7 +44,7 @@ p {
 }
 
 .chamada{
-	margin: 50px auto 30px;
+	margin: 20px auto 30px;
 }
 
 .capunga-logo {
@@ -56,9 +56,22 @@ p {
 	font-family: 'Bitter', serif;
 }
 
-.dark-bg {
-	background-color: #935625;
+.green-bg {
+	background-color: #12a89d;
 	color: white;
+}
+
+.red-bg {
+	background-color: #b11016;
+	color: white;
+}
+
+.green-bg h2, .red-bg h2, .green-bg b, .red-bg b, .green-bg a, .red-bg a{
+	color: white;
+}
+
+.green-bg p, .red-bg p{
+	color: lightgray;
 }
 
 .table	{
@@ -80,11 +93,65 @@ p {
 .beer-photo {
 	width: 400px;
 	height: 100%;
+}
+
+.beer-lager {
 	background-image: url("../img/capunga_lager.jpg");
 	background-size: cover;
-	background-position: center center;
+	background-position: bottom center;
+}
+
+.beer-apa {
+	background-image: url("../img/capunga_apa.jpg");
+	background-size: cover;
+	background-position: bottom center;
 }
 
 .beer-description {
 	padding: 50px;
+}
+
+
+.social-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-links a:hover {
+	text-decoration: none;
+}
+
+.social-links li {
+	color: #333333;
+	font-size: 30px;
+	display: inline-block;	
+	padding: 10px 20px; 
+	margin: 10px;
+}
+
+.social-links li i {
+	padding-bottom: 5px; 
+}
+
+@media(max-width:480px) {
+  h1 {
+  	font-size: 22px;
+  }
+	
+	h2 {
+  	font-size: 18px;
+  }
+
+	p {
+  	font-size: 14px;
+  }
+
+  .beer-photo{
+    display: none;
+  }
+
+  .container, .beer-description {
+  	text-align: center;
+  }
 }
