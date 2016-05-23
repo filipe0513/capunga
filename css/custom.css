@@ -56,6 +56,10 @@ p {
 	font-family: 'Bitter', serif;
 }
 
+.light-gray-bg {
+	background-color: #eeeeee;
+}
+
 .green-bg {
 	background-color: #12a89d;
 	color: white;
